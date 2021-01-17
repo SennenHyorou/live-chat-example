@@ -1,0 +1,34 @@
+<!
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>WebSockets 101</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/3.1.0/socket.io.js"
+            integrity="sha512-+l9L4lMTFNy3dEglQpprf7jQBhQsQ3/WvOnjaN/+/L4i0jOstgScV0q2TjfvRF4V+ZePMDuZYIQtg5T4MKr+MQ=="
+            crossorigin="anonymous"></script>
+    <link href="/styles.css" rel="stylesheet"/>
+</head>
+<body>
+<div id="mario-chat">
+    <div id="chat-window">
+        <div id="output">
+
+        </div>
+        <div id="feedback">
+
+        </div>
+        <input id="handle" type="text" placeholder="Handle">
+        <input id="message" type="text" placeholder="Message">
+        <button id="send">Send</button>
+        <p class="announcements"></p>
+    </div>
+    <!-- end of container -->
+</div>
+<script src="/chat.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<!-- Latest compiled JavaScript -->
+</body>
+</html>
